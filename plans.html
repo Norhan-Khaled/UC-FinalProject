@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIY Plan</title>
+    <link
+      rel="icon"
+      href="./assets/pics/icons/plan.png"
+      type="image/icon type"
+    />
+    <link rel="stylesheet" href="./assets/music.css" />
+    <link rel="stylesheet" href="./assets/plan.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="./gymwhere.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Governorates
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./asimagyms.html" target="_blank"> Al Asimah </a>
+          <a href="./Jahra.html">Jahra</a>
+          <a href="#hawalli">Hawalli</a>
+          <a href="#farwaniya">Farwaniyah</a>
+          <a href="#mubark alkabeer">Mubarak Al-Kabeer</a>
+          <a href="#alahmadi">AL-Ahmadi</a>
+        </div>
+      </div>
+
+      <a href="./music.html">Music</a>
+      <a href="./nutrition.html">Nutrition Tips</a>
+      <a href="./gymwear.html">Gym-Wear</a>
+      <a href="./quotes.html">Quotes</a>
+      <a href="./plans.html">Plans</a>
+    </div>
+
+    <div id="myDIV" class="header">
+      <h2>My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title..." />
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li>Hit the gym</li>
+      <li class="checked">Pay bills</li>
+      <li>Meet George</li>
+      <li>Buy eggs</li>
+      <li>Read a book</li>
+      <li>Organize office</li>
+    </ul>
+
+    <script src="./assets/plans.js"></script>
+  </body>
+</html>

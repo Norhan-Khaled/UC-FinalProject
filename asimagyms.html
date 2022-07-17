@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asimah Gyms</title>
+    <link rel="stylesheet" href="./assets/gyms.css" />
+    <link
+      rel="icon"
+      href="./assets/pics/icons/sprts.png"
+      type="image/icon type"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="./gymwhere.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Governorates
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./asimagyms.html" target="_blank"> Al Asimah </a>
+          <a href="./Jahra.html">Jahra</a>
+          <a href="#hawalli">Hawalli</a>
+          <a href="#farwaniya">Farwaniyah</a>
+          <a href="#mubark alkabeer">Mubarak Al-Kabeer</a>
+          <a href="#alahmadi">AL-Ahmadi</a>
+        </div>
+      </div>
+
+      <a href="./music.html">Music</a>
+      <a href="./nutrition.html">Nutrition Tips</a>
+      <a href="./gymwear.html">Gym-Wear</a>
+      <a href="./quotes.html">Quotes</a>
+      <a href="./plans.html">Plans</a>
+      <!-- <a href="/Login/login.html" target="_blank">Login</a> -->
+    </div>
+
+    <!-- <div id="myDiv"></div> -->
+
+    <!-- checkbox for males and females gyms ayee -->
+
+    <label for="Mgyms">Males Gyms</label>
+    <input
+      type="checkbox"
+      id="Mgyms"
+      onChange="toggleVisibility('maleGyms');"
+    /><br />
+
+    <label for="Fgyms">Females Gyms</label>
+    <input
+      type="checkbox"
+      id="Fgyms"
+      onChange="toggleVisibility('femaleGyms');"
+    />
+    <br />
+
+    <div id="maleGyms" style="visibility: hidden">
+      <div class="gympics">
+        <div class="container">
+          <div class="card">
+            <img src="./assets/pics/gyms/peak.png" alt="Peak Fitness" />
+            <h3>Peak Fitness</h3>
+            <h5>Phone: 99112345</h5>
+            <h6>rate:4.6</h6>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/pics/gyms/flareFM.png"
+              alt="Flare Fitness Men Uptown "
+            />
+            <h3>Flare Fitness Men Uptown</h3>
+            <h5>Phone: 96999441</h5>
+            <h6>rate:4.6</h6>
+          </div>
+          <div class="card">
+            <img src="./assets/pics/gyms/SHREDZ.png" alt="SHREDZ Fitness" />
+            <h3>SHREDZ Fitness</h3>
+            <h5>Phone: 22455815</h5>
+            <h6>rate:4.5</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="femaleGyms" style="visibility: hidden">
+      <div class="gympics">
+        <div class="container">
+          <div class="card">
+            <img
+              src="./assets/pics/gyms/flareFF.png"
+              alt="Flare Fitness Women Uptown"
+            />
+            <h3>Flare Fitness Women Uptown</h3>
+            <h5>Phone: 96999441</h5>
+            <h6>rate:4.6</h6>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/pics/gyms/spark.png"
+              alt="Spark Athletic Center"
+            />
+            <h3>Spark Atheltic Center</h3>
+            <h5>Phone: 22943302</h5>
+            <h6>rate:4.7</h6>
+          </div>
+          <div class="card">
+            <img src="./assets/pics/gyms/VFS.png" alt="VFS" />
+            <h3>VIE Fitness Studio</h3>
+            <h5>Phone: 22279365</h5>
+            <h6>rate:4.7</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/gyms.js"></script>
+  </body>
+</html>

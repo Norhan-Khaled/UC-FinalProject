@@ -1,0 +1,23 @@
+#random {
+  color: greenyellow;
+  background-color: rgb(81, 160, 66);
+  position: relative;
+  left: 46%;
+  margin-top: 50px;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: beige;
+  margin: 20px;
+  padding: 30px;
+  margin-left: 630px;
+}
+
+h4 {
+  color: beige;
+  margin: 20px;
+  margin-left: 30%;
+  position: relative;
+}
